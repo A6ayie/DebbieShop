@@ -1,0 +1,53 @@
+/* 404 Page Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.error-container h1 {
+    font-size: 8rem;
+    color: #b03060; /* Wine color */
+    margin: 0;
+}
+
+.error-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0 20px;
+}
+
+.home-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffb6c1; /* Baby pink */
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #b03060; /* Wine color */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .error-container h1 {
+        font-size: 5rem;
+    }
+
+    .error-container p {
+        font-size: 1rem;
+    }
+}

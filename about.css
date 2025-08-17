@@ -1,0 +1,29 @@
+@import url('home.css'); /* reuse your homepage styles */
+
+/* Additions for About Page */
+
+/* Hero override */
+.about-hero {
+  margin-top: 2rem;
+  flex-direction: row;
+}
+
+.about-hero .hero-text {
+  max-width: 50%;
+}
+
+.about-hero .hero-img img {
+  max-width: 350px;
+}
+
+/* Fade-in Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

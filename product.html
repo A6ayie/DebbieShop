@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - DebbieShop</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">DebbieShop</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="cart.html">Cart</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="product-container">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/500x500" alt="Product Name">
+        </div>
+        <div class="product-details">
+            <h1>Elegant Summer Dress</h1>
+            <p class="price">$49.99</p>
+            <p class="description">
+                This elegant summer dress features a flowing silhouette, premium fabric, and a timeless design perfect for any occasion. Available in multiple sizes.
+            </p>
+            <div class="options">
+                <label for="size">Size:</label>
+                <select id="size">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>XL</option>
+                </select>
+            </div>
+            <div class="quantity">
+                <label for="qty">Quantity:</label>
+                <input type="number" id="qty" min="1" value="1">
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 DebbieShop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
