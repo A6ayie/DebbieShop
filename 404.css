@@ -11,7 +11,7 @@ body {
 
 .error-container {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem; /* was 20px -> 20/16 = 1.25rem */
 }
 
 .error-container h1 {
@@ -23,17 +23,17 @@ body {
 .error-container p {
     font-size: 1.2rem;
     color: #333;
-    margin: 10px 0 20px;
+    margin: 0.625rem 0 1.25rem; /* was 10px 0 20px -> 10/16=0.625rem, 20/16=1.25rem */
 }
 
 .home-btn {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem; /* was 12px 24px -> 12/16=0.75rem, 24/16=1.5rem */
     background-color: #ffb6c1; /* Baby pink */
     color: white;
     text-decoration: none;
     font-size: 1rem;
-    border-radius: 30px;
+    border-radius: 1.875rem; /* was 30px -> 30/16 = 1.875rem */
     transition: background 0.3s ease;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 600px) { /* was 600px -> 600/16 = 37.5rem */
     .error-container h1 {
         font-size: 5rem;
     }

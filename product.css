@@ -24,7 +24,7 @@ body {
 }
 
 .navbar nav a {
-    margin: 0 10px;
+    margin: 0 0.625rem; /* was 0 10px -> 10/16 = 0.625rem */
     text-decoration: none;
     color: #333;
     font-weight: 500;
@@ -43,16 +43,16 @@ body {
 }
 
 .product-image {
-    flex: 1 1 400px;
+    flex: 1 1 25rem; /* was 400px -> 400/16 = 25rem */
 }
 
 .product-image img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625rem; /* was 10px -> 10/16 = 0.625rem */
 }
 
 .product-details {
-    flex: 1 1 400px;
+    flex: 1 1 25rem; /* was 400px -> 25rem */
 }
 
 .product-details h1 {
@@ -77,14 +77,14 @@ body {
 }
 
 label {
-    margin-right: 10px;
+    margin-right: 0.625rem; /* was 10px -> 0.625rem */
 }
 
 select,
 input[type="number"] {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 0.3125rem; /* was 5px -> 5/16 = 0.3125rem */
+    border-radius: 0.3125rem; /* was 5px -> 0.3125rem */
+    border: 0.0625rem solid #ccc; /* was 1px -> 1/16 = 0.0625rem */
 }
 
 .add-to-cart {
@@ -93,7 +93,7 @@ input[type="number"] {
     border: none;
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
-    border-radius: 5px;
+    border-radius: 0.3125rem; /* was 5px -> 0.3125rem */
     cursor: pointer;
 }
 

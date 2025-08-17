@@ -13,13 +13,13 @@
 }
 
 .about-hero .hero-img img {
-  max-width: 350px;
+  max-width: 21.875rem; /* was 350px -> 350/16 = 21.875rem */
 }
 
 /* Fade-in Animation */
 .fade-in {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(1.25rem); /* was 20px -> 20/16 = 1.25rem */
   transition: all 0.8s ease-in-out;
 }
 

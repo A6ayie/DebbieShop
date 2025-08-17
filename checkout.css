@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid var(--pink);
+    border-bottom: 0.125rem solid var(--pink);
 }
 
 .logo {
@@ -49,12 +49,12 @@ nav a:hover {
 }
 
 .checkout-container {
-    max-width: 800px;
+    max-width: 50rem;
     margin: 2rem auto;
     padding: 2rem;
     background-color: var(--white);
-    border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
 .checkout-container h1 {
@@ -76,8 +76,8 @@ nav a:hover {
     width: 100%;
     padding: 0.8rem;
     margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.5rem;
 }
 
 .flex-inputs {
@@ -93,7 +93,7 @@ nav a:hover {
     color: var(--white);
     font-size: 1rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     cursor: pointer;
     transition: background 0.3s;
 }

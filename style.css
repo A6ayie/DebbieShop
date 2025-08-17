@@ -1,11 +1,11 @@
 /* Container for login/register */
 .auth-container {
-    max-width: 400px;
+    max-width: 25rem; /* was 400px -> 400/16 = 25rem */
     margin: 5% auto;
     background-color: var(--white);
     padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 0.9375rem; /* was 15px -> 15/16 = 0.9375rem */
+    box-shadow: 0 0.625rem 1.5625rem rgba(0,0,0,0.1); /* was 0 10px 25px -> 10/16=0.625rem,25/16=1.5625rem */
     text-align: center;
     font-family: 'Arial', sans-serif;
 }
@@ -31,15 +31,15 @@
 
 .auth-container input {
     padding: 0.8rem 1rem;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    border: 0.0625rem solid #ccc; /* was 1px -> 1/16 = 0.0625rem */
+    border-radius: 0.625rem; /* was 10px -> 10/16 = 0.625rem */
     font-size: 1rem;
     transition: all 0.3s ease;
 }
 
 .auth-container input:focus {
     border-color: var(--baby-pink);
-    box-shadow: 0 0 5px var(--baby-pink);
+    box-shadow: 0 0 0.3125rem var(--baby-pink); /* was 5px -> 5/16 = 0.3125rem */
     outline: none;
 }
 
@@ -48,7 +48,7 @@
     padding: 0.8rem 1rem;
     background-color: var(--baby-pink);
     border: none;
-    border-radius: 10px;
+    border-radius: 0.625rem; /* was 10px -> 10/16 = 0.625rem */
     color: var(--white);
     font-size: 1.1rem;
     font-weight: bold;
@@ -78,7 +78,7 @@
 }
 
 /* Responsive */
-@media(max-width: 500px) {
+@media(max-width: 500px) { /* keep max-width in px as requested */
     .auth-container {
         margin: 10% 1rem;
         padding: 1.5rem;
